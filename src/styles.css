@@ -1,0 +1,247 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+.mat-list-item,
+.mat-menu-item {
+  font-size: 14px !important;
+}
+
+.album-cover:hover {
+  cursor: pointer;
+}
+
+mat-chip:hover {
+  cursor: pointer;
+}
+
+.navbar-spacer {
+  flex: 1 1 auto;
+}
+
+.navbar {
+  z-index: 2;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+}
+
+/*Set sidenav width*/
+
+mat-sidenav {
+  min-width: 180px !important;
+  border-right: 1px solid #eee;
+  box-shadow: 6px 0 6px rgba(0, 0, 0, 0.1);
+  /* background-color:rgb(63, 81, 181); */
+}
+
+#push-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.mat-toolbar {
+  min-height: 64px;
+}
+
+.sidenav-content {
+  padding: 40px;
+}
+
+.bottom-spacer {
+  height: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  mat-sidenav {
+    position: fixed !important;
+  }
+
+  mat-sidenav-content {
+    margin-left: 0px !important;
+  }
+
+  .sidenav-content {
+    padding: 20px;
+  }
+
+  .bottom-spacer {
+    height: 40px;
+  }
+}
+
+.mat-drawer-container {
+  overflow: auto !important;
+  height: 100%;
+}
+
+.mat-drawer-content {
+  height: auto !important;
+}
+
+.mat-list-base .mat-list-item .mat-line {
+  white-space: normal !important;
+}
+
+.mat-sidenav-content .mat-list-item {
+  height: auto !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.mat-list-base .mat-list-item .mat-list-text>*, .mat-list-base .mat-list-option .mat-list-text>* {
+  margin: 0;
+  padding: 20px !important;
+  font-weight: normal;
+  font-size: inherit;
+}
+
+
+/* * * * * * * * * Login Page * * * * * * * * * */
+
+.class{
+  color: #bde0fe;
+  color: #ffc8dd;
+  color: #cdb4db;
+  color: #4b4e6d;
+}
+
+
+/*navbar*/
+.mat-toolbar.mat-primary {
+  background-image: linear-gradient(15deg, #afd7fa, #ffc8dd , #FFE3D9);
+  color: #fff;
+}
+
+
+.mat-drawer-container {
+  background-color: #2e3142;
+}
+
+
+.mat-card:not([class*=mat-elevation-z]){
+
+
+}
+
+
+
+
+.mat-raised-button:not([class*=mat-elevation-z]){
+  background-image: linear-gradient(15deg, #afd7fa, #ffc8dd , #FFE3D9);
+  color: #1a1b25;
+}
+
+
+
+.page-title{
+  color: #2e3142
+}
+
+/* * * * * * * * * New Releases * * * * * * * * * */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@100&family=Work+Sans:wght@100&display=swap');
+.mat-h1, .mat-headline, .mat-typography h1 {
+
+text-align: center;
+text-transform: uppercase;
+font-family: 'Roboto Mono', monospace;
+
+}
+
+.new{
+  color: #afd7fa;
+}
+
+.mat-chip{
+  background-image: linear-gradient(45deg, #fcf6f8 , #fadae6 , #fcf6f8) !important;
+}
+.mat-body p, .mat-body-1 p, .mat-typography p {
+  margin: 0 0 12px;
+  color: #ffc8dd;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+
+  padding-bottom: 3rem;
+}
+
+
+
+.mat-button, .mat-icon-button, .mat-stroked-button, .mat-flat-button{
+  color:#2e3142;
+}
+
+
+
+.mat-drawer-inner-container {
+background-color:#2e3142 ;
+
+}
+
+.nav-icon{
+  color: #afd7fa;
+}
+
+
+.search{
+  color: #afd7fa;
+}
+
+.search-form{
+  color: #afd7fa;
+
+}
+
+.mat-form-field-wrapper {
+  position: relative;
+}
+
+input{
+  border-color: #afd7fa;
+}
+
+.label-artist-search{
+  color: #afd7fa;
+}
+
+h1{
+  color: #afd7fa;
+}
+::ng-deep .mat-form-field-underline, ::ng-deep .mat-form-field-ripple { background-color: blue !important; }
+
+
+.mat-list-base .mat-list-item .mat-list-icon, .mat-list-base .mat-list-option .mat-list-icon{
+  color: #cdb4db  ;
+}
+
+.mat-h2, .mat-title, .mat-typography h2{
+color: #bde0fe;
+}
